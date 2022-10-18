@@ -19,3 +19,9 @@ ls -a | grep ^t.*C1$
 EJERCICIO 7)
 hacer cd .. hasta llegar a /$
 ls -a 
+
+EJERCICIO 8)
+ls -a | grep -v ^t
+
+EJERCICIO 9)
+ls -R
