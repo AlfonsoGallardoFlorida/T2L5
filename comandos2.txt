@@ -17,7 +17,7 @@ EJERCICIO 15)
 ls -i
 
 EJERCICIO 16)
-
+mkdir PRUEBA
 
 EJERCICIO 17)
 
