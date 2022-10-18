@@ -8,10 +8,10 @@ EJERCICIO 12)
 date
 
 EJERCICIO 13)
-
+cd /home/
 
 EJERCICIO 14)
-
+alfonso@alfonso-VirtualBox/home$
 
 EJERCICIO 15)
 
