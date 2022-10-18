@@ -17,3 +17,5 @@ EJERCICIO 6)
 ls -a | grep ^t.*C1$
 
 EJERCICIO 7)
+hacer cd .. hasta llegar a /$
+ls -a 
