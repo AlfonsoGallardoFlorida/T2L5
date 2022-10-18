@@ -14,5 +14,6 @@ EJERCICIO 5)
 ls -a | grep ^tty.*[1-4]$
 
 EJERCICIO 6)
+ls -a | grep ^t.*C1$
 
 EJERCICIO 7)
