@@ -5,7 +5,7 @@ EJERCICIO 11)
 alfonso@alfonso-VirtualBox/tmp$
 
 EJERCICIO 12)
-
+date
 
 EJERCICIO 13)
 
