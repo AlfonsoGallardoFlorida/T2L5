@@ -1,2 +1,18 @@
 EJERCICIO 1)
 ls -a /bin/
+
+EJERCICIO 2)
+ls -a /tmp/
+
+EJERCICIO 3)
+ls -r /etc/ | grep ^t | cat -n | sort -rn
+
+EJERCICIO 4)
+ls -a | grep ^tty..$
+
+EJERCICIO 5)
+ls -a | grep ^tty.*[1-4]$
+
+EJERCICIO 6)
+
+EJERCICIO 7)
