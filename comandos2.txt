@@ -14,7 +14,7 @@ EJERCICIO 14)
 alfonso@alfonso-VirtualBox/home$
 
 EJERCICIO 15)
-
+ls -i
 
 EJERCICIO 16)
 
