@@ -1,5 +1,5 @@
 EJERCICIO 1) 
-cat el_quijote.txt | grep -i quijote
+cat el_quijote.txt | grep -ic quijote
 
 EJERCICIO 2) 
-cat el_quijote | grep -vin quijote
+cat el_quijote | grep -vic quijote
