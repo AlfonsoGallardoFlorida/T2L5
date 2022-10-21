@@ -17,3 +17,13 @@ cat el_quijote.txt | sed 's/panza/barriga/g'
 
 EJERCICIO 6)
 cat el_quijote.txt | sed 's/panza/Barriga/gi'
+
+EJERCICIO 7)
+head -c4 el_quijote.txt
+
+EJERCICIO 8)
+head -c4000 el_quijote.txt
+
+EJERCICIO 9)
+
+head -n+14 | head -n12
