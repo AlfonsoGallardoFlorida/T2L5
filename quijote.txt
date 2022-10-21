@@ -8,3 +8,6 @@ cat el_quijote | grep -vic quijote
 
 EJERCICIO 3)
 grep -Ric quijote
+
+EJERCICIO 4)
+grep -Ric quijote | grep -v :0$
