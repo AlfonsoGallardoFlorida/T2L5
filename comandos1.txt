@@ -60,4 +60,35 @@ EJERCICIO 19)
 cp mensaje.txt dir1/ | cp mensaje.txt dir2/ | cp mensaje.txt dir3/
 
 EJERCICIO 20)
+ls -REJERCICIO 10)
+cd /tmp/
+
+EJERCICIO 11)
+alfonso@alfonso-VirtualBox/tmp$
+
+EJERCICIO 12)
+date
+
+EJERCICIO 13)
+cd /home/
+
+EJERCICIO 14)
+alfonso@alfonso-VirtualBox/home$
+
+EJERCICIO 15)
+ls -i
+
+EJERCICIO 16)
+mkdir PRUEBA
+
+EJERCICIO 17)
+mkdir -p PRUEBA/{dir1/dir11,dir2,dir3/{dir31,dir32}}
+
+EJERCICIO 18)
+cp /etc/hostname /home/alfonso/PRUEBA/mensaje.txt
+
+EJERCICIO 19)
+cp mensaje.txt dir1/ | cp mensaje.txt dir2/ | cp mensaje.txt dir3/
+
+EJERCICIO 20)
 ls -R
