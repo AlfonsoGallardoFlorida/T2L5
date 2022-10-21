@@ -1,3 +1,31 @@
+EJERCICIO 1)
+ls -a /bin/
+
+EJERCICIO 2)
+ls -a /tmp/
+
+EJERCICIO 3)
+ls -r /etc/ | grep ^t | cat -n | sort -rn
+
+EJERCICIO 4)
+ls -a | grep ^tty..$
+
+EJERCICIO 5)
+ls -a | grep ^tty.*[1-4]$
+
+EJERCICIO 6)
+ls -a | grep ^t.*C1$
+
+EJERCICIO 7)
+hacer cd .. hasta llegar a /$
+ls -a 
+
+EJERCICIO 8)
+ls -a | grep -v ^t
+
+EJERCICIO 9)
+ls -R
+
 EJERCICIO 10)
 cd /tmp/
 
@@ -29,66 +57,35 @@ EJERCICIO 19)
 cp mensaje.txt dir1/ | cp mensaje.txt dir2/ | cp mensaje.txt dir3/
 
 EJERCICIO 20)
-ls -REJERCICIO 10)
-cd /tmp/
-
-EJERCICIO 11)
-alfonso@alfonso-VirtualBox/tmp$
-
-EJERCICIO 12)
-date
-
-EJERCICIO 13)
-cd /home/
-
-EJERCICIO 14)
-alfonso@alfonso-VirtualBox/home$
-
-EJERCICIO 15)
-ls -i
-
-EJERCICIO 16)
-mkdir PRUEBA
-
-EJERCICIO 17)
-mkdir -p PRUEBA/{dir1/dir11,dir2,dir3/{dir31,dir32}}
-
-EJERCICIO 18)
-cp /etc/hostname /home/alfonso/PRUEBA/mensaje.txt
-
-EJERCICIO 19)
-cp mensaje.txt dir1/ | cp mensaje.txt dir2/ | cp mensaje.txt dir3/
-
-EJERCICIO 20)
-ls -REJERCICIO 10)
-cd /tmp/
-
-EJERCICIO 11)
-alfonso@alfonso-VirtualBox/tmp$
-
-EJERCICIO 12)
-date
-
-EJERCICIO 13)
-cd /home/
-
-EJERCICIO 14)
-alfonso@alfonso-VirtualBox/home$
-
-EJERCICIO 15)
-ls -i
-
-EJERCICIO 16)
-mkdir PRUEBA
-
-EJERCICIO 17)
-mkdir -p PRUEBA/{dir1/dir11,dir2,dir3/{dir31,dir32}}
-
-EJERCICIO 18)
-cp /etc/hostname /home/alfonso/PRUEBA/mensaje.txt
-
-EJERCICIO 19)
-cp mensaje.txt dir1/ | cp mensaje.txt dir2/ | cp mensaje.txt dir3/
-
-EJERCICIO 20)
 ls -R
+EJERCICIO 1) 
+cat el_quijote.txt | grep -ic quijote // CUENTA LAS LINEAS EN LAS Q APARECE PERO SI APARECE MAS DE UNA VEZ EN LA MISMA LINEA NO LAS CUENTA
+
+cat el_quijote.txt | grep -oi quijote | wc -w // CUENTA LAS PALABRAS
+
+EJERCICIO 2) 
+cat el_quijote | grep -vic quijote
+
+EJERCICIO 3)
+grep -Ric quijote
+
+EJERCICIO 4)
+grep -Ric quijote | grep -v :0$
+
+EJERCICIO 5)
+cat el_quijote.txt | sed 's/panza/barriga/g'
+
+EJERCICIO 6)
+cat el_quijote.txt | sed 's/panza/Barriga/gi'
+
+EJERCICIO 7)
+head -c4 el_quijote.txt
+
+EJERCICIO 8)
+head -c4000 el_quijote.txt
+
+EJERCICIO 9)
+head -n+14 | head -n12
+
+EJERCICIO 10)
+sort -fn el_quijote.txt
