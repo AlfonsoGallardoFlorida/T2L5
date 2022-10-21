@@ -31,7 +31,7 @@ cd /dir31
 mkdir 311 312
 
 EJERCICIO 18)
-
+cp /etc/hostname /home/alfonso/PRUEBA/mensaje.txt
 
 EJERCICIO 19)
 
