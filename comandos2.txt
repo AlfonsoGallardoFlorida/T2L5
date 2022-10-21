@@ -20,15 +20,7 @@ EJERCICIO 16)
 mkdir PRUEBA
 
 EJERCICIO 17)
-cd /PRUEBA 
-mkdir dir1 dir2 dir3
-cd /dir1 
-mkdir dir11
-cd ..
-cd /dir3
-mkdir dir31
-cd /dir31
-mkdir 311 312
+mkdir -p PRUEBA/{dir1/dir11,dir2,dir3/{dir31,dir32}}
 
 EJERCICIO 18)
 cp /etc/hostname /home/alfonso/PRUEBA/mensaje.txt
