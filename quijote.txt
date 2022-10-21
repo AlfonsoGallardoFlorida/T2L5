@@ -1,0 +1,31 @@
+EJERCICIO 1) 
+cat el_quijote.txt | grep -ic quijote // CUENTA LAS LINEAS EN LAS Q APARECE PERO SI APARECE MAS DE UNA VEZ EN LA MISMA LINEA NO LAS CUENTA
+
+cat el_quijote.txt | grep -oi quijote | wc -w // CUENTA LAS PALABRAS
+
+EJERCICIO 2) 
+cat el_quijote | grep -vic quijote
+
+EJERCICIO 3)
+grep -Ric quijote
+
+EJERCICIO 4)
+grep -Ric quijote | grep -v :0$
+
+EJERCICIO 5)
+cat el_quijote.txt | sed 's/panza/barriga/g'
+
+EJERCICIO 6)
+cat el_quijote.txt | sed 's/panza/Barriga/gi'
+
+EJERCICIO 7)
+head -c4 el_quijote.txt
+
+EJERCICIO 8)
+head -c4000 el_quijote.txt
+
+EJERCICIO 9)
+head -n+14 | head -n12
+
+EJERCICIO 10)
+sort -fn el_quijote.txt
