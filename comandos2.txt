@@ -34,6 +34,7 @@ EJERCICIO 18)
 cp /etc/hostname /home/alfonso/PRUEBA/mensaje.txt
 
 EJERCICIO 19)
+ls -R
 
 
 EJERCICIO 20)
