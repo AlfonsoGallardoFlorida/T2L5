@@ -1,0 +1,27 @@
+EJERCICIO 1)
+ls -a /bin/
+
+EJERCICIO 2)
+ls -a /tmp/
+
+EJERCICIO 3)
+ls -r /etc/ | grep ^t | cat -n | sort -rn
+
+EJERCICIO 4)
+ls -a | grep ^tty..$
+
+EJERCICIO 5)
+ls -a | grep ^tty.*[1-4]$
+
+EJERCICIO 6)
+ls -a | grep ^t.*C1$
+
+EJERCICIO 7)
+hacer cd .. hasta llegar a /$
+ls -a 
+
+EJERCICIO 8)
+ls -a | grep -v ^t
+
+EJERCICIO 9)
+ls -R
