@@ -1,5 +1,7 @@
 EJERCICIO 1) 
-cat el_quijote.txt | grep -ic quijote
+cat el_quijote.txt | grep -ic quijote // CUENTA LAS LINEAS EN LAS Q APARECE PERO SI APARECE MAS DE UNA VEZ EN LA MISMA LINEA NO LAS CUENTA
+
+cat el_quijote.txt | grep -oi quijote | wc -w // CUENTA LAS PALABRAS
 
 EJERCICIO 2) 
 cat el_quijote | grep -vic quijote
