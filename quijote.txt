@@ -3,3 +3,6 @@ cat el_quijote.txt | grep -ic quijote
 
 EJERCICIO 2) 
 cat el_quijote | grep -vic quijote
+
+EJERCICIO 3)
+grep -R -i -c quijote
