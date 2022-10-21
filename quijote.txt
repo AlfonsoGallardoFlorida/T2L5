@@ -25,5 +25,7 @@ EJERCICIO 8)
 head -c4000 el_quijote.txt
 
 EJERCICIO 9)
-
 head -n+14 | head -n12
+
+EJERCICIO 10)
+sort -fn el_quijote.txt
