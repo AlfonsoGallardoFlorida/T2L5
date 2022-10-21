@@ -11,3 +11,9 @@ grep -Ric quijote
 
 EJERCICIO 4)
 grep -Ric quijote | grep -v :0$
+
+EJERCICIO 5)
+cat el_quijote.txt | sed 's/panza/barriga/'
+
+EJERCICIO 6)
+
