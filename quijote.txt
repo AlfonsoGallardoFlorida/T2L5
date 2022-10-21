@@ -7,4 +7,4 @@ EJERCICIO 2)
 cat el_quijote | grep -vic quijote
 
 EJERCICIO 3)
-grep -R -i -c quijote
+grep -Ric quijote
